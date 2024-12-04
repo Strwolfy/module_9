@@ -5,8 +5,7 @@ first = 'Мама мыла раму'
 second = 'Рамена мало было'
 
 result = list(map(lambda x, y: x == y, first, second))
-print(result)  # Результат: [False, True, True, False, False, False, False, False, True, False, False, False, False, False]
-
+print(result)
 
 # Замыкание для записи данных в файл
 def get_advanced_writer(file_name):
